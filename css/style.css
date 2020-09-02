@@ -5,4 +5,22 @@ Client: Cookie Monster
 Author: Nikhil Bachani | https://www.linkedin.com/in/nikhilbachani/
 Made @ OneMonth HTML
 
+Color Reference:
+blue: #75c1f6;
+
 */
+
+#container {
+	background: black;
+	width: 424px;
+	color: white;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+h2 {
+	background: #75c1f6;
+	color: black;
+}
