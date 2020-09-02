@@ -10,10 +10,24 @@ blue: #75c1f6;
 
 */
 
+body {
+	background: url('../images/cookie-monster.jpg');
+	/* the following code is to stretch the image over the entire body */
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	/* the next 3 lines have "broswer prefixes", needed for CSS3 techniques */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
 #container {
 	background: black;
 	width: 424px;
 	color: white;
+	padding: 15px;
+	text-align: justify;
 }
 
 h1 {
@@ -23,4 +37,16 @@ h1 {
 h2 {
 	background: #75c1f6;
 	color: black;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+a {
+	color: #75c1f6;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: underline;
 }
