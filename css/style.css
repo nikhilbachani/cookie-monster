@@ -59,6 +59,7 @@ a:hover {
 	h1 {
 		font-size: 50px;
 		margin-bottom: 0;
+		text-align: center;
 	}
 
 	h2 {
@@ -70,10 +71,13 @@ a:hover {
 		margin-right: 20px;
 	}
 
+	p:last-child {
+		text-align: center;
+	}
+
 	#container {
 		background: rgba(0, 0, 0, 0.6);
 		box-sizing: border-box;
-		margin: 0;
 		text-align: left;
 		width: 100%;
 	}
