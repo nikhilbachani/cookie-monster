@@ -48,5 +48,33 @@ a {
 
 a:hover {
 	color: white;
-	text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 20px;
+		line-height: 1.5;
+	}
+
+	h1 {
+		font-size: 50px;
+		margin-bottom: 0;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	a img {
+		width: 48px;
+		margin-right: 20px;
+	}
+
+	#container {
+		background: rgba(0, 0, 0, 0.6);
+		box-sizing: border-box;
+		margin: 0;
+		text-align: left;
+		width: 100%;
+	}
 }
